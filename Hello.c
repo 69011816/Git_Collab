@@ -1,4 +1,5 @@
 #include<stdio.h>
+// Print a greeting message for the specified user
 int greeting(const char *name)
 {
     printf("Hello, %s!\n", name);
@@ -7,6 +8,6 @@ int greeting(const char *name)
 
 int main(void)
 {
-	greeting(“Developer A,B,C !!”);
+	greeting("Developer A,B,C !!");
     return 0;
 }
